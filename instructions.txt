@@ -1,0 +1,11 @@
+To run DashApp
+
+1) Locate the source folder (the one containing app.py) in the terminal/command line
+
+2) Start a virtual environment
+	python3 -m venv venv
+	source venv/bin/activate
+
+3) pip install -r requirements.txt
+
+4) python app.py
