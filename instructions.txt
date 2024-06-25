@@ -3,9 +3,14 @@ To run DashApp
 1) Locate the source folder (the one containing app.py) in the terminal/command line
 
 2) Start a virtual environment
-	python3 -m venv venv
-	source venv/bin/activate
+	Option 1)
+		python3 -m venv venv 
+		source venv/bin/activate
+	Option 2)
+		py -m venv venv
+		cd venv\Scripts\activate
+4) Return to main folder: cd \Spotify_Weather_Dash_DataVis-main
 
 3) pip install -r requirements.txt
 
-4) python app.py
+4) python app.py or py app.py
